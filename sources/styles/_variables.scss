@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* GT Super Display isn't available in the google Fonts so I downloaded this fonts to my project */
+@font-face {
+    font-family: 'GT Super Display';
+    src: url('../fonts/GT-Super-Display-Bold-Trial.otf') format('opentype');         
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+$font-roboto: 'Roboto'; 
+$font-gt-super-display: 'GT Super Display';
+$color-green:#023A15;
+$color-pink: #FFE6E2;
+
+
+

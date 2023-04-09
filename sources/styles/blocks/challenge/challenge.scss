@@ -1,0 +1,44 @@
+.challenge {    
+    display: flex;
+    margin-top: 128px;
+    position: relative;
+    & .challenge__text-part{
+        margin-right: 140px;
+        margin-bottom: 434px;
+        & .challenge__title{
+            font-family: $font-gt-super-display;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 66px;
+            line-height: 84px;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            white-space: nowrap;
+        }
+        & .challenge__text{
+            font-family: $font-roboto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            max-width: 460px;
+        }
+    }
+
+    & .challenge__images-part{
+        display: flex;
+        align-items: center;
+        
+        & .challenge__woman {
+            width: 391px;
+            height: 531px;
+        }
+        & .challenge__man {
+            width: 557px;
+            height: 371px;
+            position: absolute;
+            left: 0;
+            bottom: -65px;
+        }
+    }
+}

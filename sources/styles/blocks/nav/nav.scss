@@ -1,0 +1,22 @@
+.nav {
+    & .nav__list{
+        display: flex;
+        gap: 32px;
+    }
+    & .nav__item{
+        margin-top: 40px;
+    }
+    & .nav__link{
+        font-family: $font-roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        color: #FFFFFF;
+        transition: .4s;
+        &:hover {
+            font-size: 17px;
+            color: $color-pink;            
+        }
+    }
+}

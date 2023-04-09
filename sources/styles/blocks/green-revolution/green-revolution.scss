@@ -1,0 +1,64 @@
+.green-revolution {
+    display: flex;
+    gap: 77px;
+    & .green-revolution__text-part{
+        color: white;
+    }
+    & .green-revolution__text{
+        font-family: $font-gt-super-display;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 109px;
+        line-height: 110px;       
+        letter-spacing: 2px;
+    }
+    & .green-revolution__small-text{
+        font-family: $font-roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    & .green-revolution__images-part {
+        position: relative;
+        width: 550px;
+        height: 645px;
+        margin-bottom: 81px;
+        & .green-revolution__image_tracery{
+            position: absolute;
+            width: 558px;
+            height: 650px;
+            left: 18px;
+            top: 12.15px;
+            z-index: 0;
+        }
+        & .green-revolution__image_drink-cup{
+            position: absolute;
+            height: 339px;
+            left: 5%;
+            top: 4%;
+            z-index: 1;
+        }
+        & .green-revolution__image_food-container{
+            position: absolute;
+            height: 293px;
+            right: -6%;
+            bottom: -2px;           
+            z-index: 1;
+        }
+        & .green-revolution__image_woman{
+            position: absolute;
+            height: 60px;
+            top: 0.15px;
+            z-index: 2;
+        }
+        & .green-revolution__image_man{
+            position: absolute;
+            height: 60px;
+            left: 42.93%;
+            top: 330.64px;
+            z-index: 2;
+        }
+    }
+}

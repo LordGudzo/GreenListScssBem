@@ -1,0 +1,14 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    & .logo__img {
+        height: 34px;
+        width: 31.16699981689453px;
+        margin: 32px 9px 0 0;
+    }
+    & .logo__text {
+        font-family: $font-gt-super-display;
+        color: white;
+        margin-top: 40px;
+    }
+}

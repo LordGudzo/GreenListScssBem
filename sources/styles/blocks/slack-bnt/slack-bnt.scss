@@ -1,0 +1,27 @@
+.slack-bnt {
+    background-color: white;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    width: 185px;
+    gap: 8px;
+    transition: .4s;
+    & .slack-bnt__text {
+        font-family: $font-roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color-green;
+    }
+    &:hover {
+        box-shadow: 12px 10px 26px 1px #10CA2F;
+        background-color: $color-green;
+        & .slack-bnt__img {
+            background-color: $color-pink;
+        }
+        & .slack-bnt__text {
+            color: $color-pink;
+        }
+    }
+}

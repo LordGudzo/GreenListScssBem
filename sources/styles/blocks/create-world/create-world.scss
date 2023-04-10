@@ -5,12 +5,19 @@
     & .create-world__title{
         font-family: $font-gt-super-display;
         font-style: normal;
-        font-weight: 900;
-        font-size: 61px;
-        line-height: 77px;
+        font-weight: 900;        
+        line-height: 71px;
         text-align: center;
-        letter-spacing: 3px;
-        padding: 180px 0 40px;
+        letter-spacing: 4px;
+        padding: 178px 0 40px;
+        & .create-world__title-style1{
+            font-size: 59px;
+            padding-left: 8px;
+        }
+        & .create-world__title-style2{
+            font-size: 61px;
+            padding-right: 10px;
+        }
     }
     & .create-world__text{
         font-family: $font-roboto;
@@ -19,11 +26,14 @@
         font-size: 18px;
         line-height: 27px;
         text-align: center;
+        max-width: 578px;
+        margin: 4px auto;
         padding-bottom: 494px;
     }
     & .create-world__img-field{
         position: absolute;
         bottom: -128px;
+        left: calc(50% - 811px / 2);
         & .create-world__img {
             max-width: 811px;
             max-height: 543px;

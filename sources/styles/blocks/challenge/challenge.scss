@@ -3,17 +3,26 @@
     margin-top: 128px;
     position: relative;
     & .challenge__text-part{
-        margin-right: 140px;
+        margin-right: 125px;
         margin-bottom: 434px;
-        & .challenge__title{
-            font-family: $font-gt-super-display;
-            font-style: normal;
-            font-weight: 900;
+        margin-top: 2px;
+        font-family: $font-gt-super-display;
+        font-style: normal;
+        font-weight: 900;        
+        line-height: 84px;
+        letter-spacing: 3px;        
+        & .challenge__title-style1{
             font-size: 66px;
-            line-height: 84px;
-            letter-spacing: 2px;
-            margin-bottom: 30px;
-            white-space: nowrap;
+        }
+        & .challenge__title-style2{
+            font-size: 64px;
+        }
+        & .challenge__title-style3{
+            font-size: 63px;
+        }
+        & .challenge__title-style4{
+            font-size: 69px;
+            margin-bottom: 36px;
         }
         & .challenge__text{
             font-family: $font-roboto;
@@ -22,6 +31,7 @@
             font-size: 18px;
             line-height: 27px;
             max-width: 460px;
+            letter-spacing: 0;
         }
     }
 
@@ -38,7 +48,7 @@
             height: 371px;
             position: absolute;
             left: 0;
-            bottom: -65px;
+            bottom: -60px;
         }
     }
 }

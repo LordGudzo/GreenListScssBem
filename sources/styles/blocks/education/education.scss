@@ -1,39 +1,105 @@
 .education {
-    & .education_container{
-        width: 1154px;
-        margin: 0 auto;
-        padding: 186px 0px 64px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 86px;
+    margin-top: 313px;
+    & .education__block-1{
+        display: flex;
+        gap: 214px;
+        padding-left: 100px;
+        padding-bottom: 125px;
         & .education__text-card{
-            width: 562px;
-            height: 535px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center; 
+            width: 380px;
+            color: #000000;
+            font-style: normal;
             & .education__title{
-                font-family: $font-gt-super-display;
-                font-style: normal;
+                font-family: $font-gt-super-display;                
                 font-weight: 900;
                 font-size: 53px;
                 line-height: 72px;
                 letter-spacing: 2px;
-                width: 385px;
-            }     
+                padding-bottom: 16px
+            }
             & .education__text{
                 font-family: $font-roboto;
-                font-style: normal;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 27px;
-                width: 385px;
-            }    
+            }
         }
         & .education__img-card{
             width: 562px;
-            height: 532px;           
+            position: relative;
+            & .education__img-field{
+                position: absolute;
+                left: 30px;
+                top: -26px;
+            }
+        }
+    }
+    & .education__block-2{
+        display: flex;
+        gap: 85px;
+        padding-left: 100px;
+        padding-bottom: 140px;
+        & .education__text-card{
+            width: 380px;
+            color: #000000;
+            font-style: normal;
+            & .education__title{
+                font-family: $font-gt-super-display;                
+                font-weight: 900;
+                font-size: 53px;
+                line-height: 72px;
+                letter-spacing: 3px;
+                padding-bottom: 16px
+            }
+            & .education__text{
+                font-family: $font-roboto;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+        & .education__img-card{
+            width: 562px;
+            position: relative;
+            & .education__img-field{
+                position: absolute;
+                left: 30px;
+                top: 28px;
+            }
+        }
+    }
+    & .education__block-3{
+        display: flex;
+        gap: 214px;
+        padding-left: 124px;
+        padding-bottom: 217px;
+        & .education__text-card{
+            width: 380px;
+            color: #000000;
+            font-style: normal;
+            & .education__title{
+                font-family: $font-gt-super-display;                
+                font-weight: 900;
+                font-size: 54px;
+                line-height: 72px;
+                letter-spacing: 3px;
+                padding-bottom: 16px
+            }
+            & .education__text{
+                font-family: $font-roboto;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+        & .education__img-card{
+            width: 562px;
+            position: relative;
+            & .education__img-field{
+                position: absolute;
+                left: 30px;
+                top: -59px;
+            }
         }
     }
 }

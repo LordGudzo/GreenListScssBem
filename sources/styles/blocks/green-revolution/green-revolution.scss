@@ -1,23 +1,39 @@
 .green-revolution {
     display: flex;
-    gap: 77px;
+    gap: 71px;
     & .green-revolution__text-part{
         color: white;
-    }
-    & .green-revolution__text{
         font-family: $font-gt-super-display;
         font-style: normal;
-        font-weight: 900;
-        font-size: 109px;
+        font-weight: 900;        
         line-height: 110px;       
-        letter-spacing: 2px;
+        letter-spacing: 4px;
+        margin-top: 7px;
+       
+        & .green-revolution__text-style1{
+            font-size: 109px;
+        }
+        & .green-revolution__text-style2{
+            font-size: 110px;
+        }
+        & .green-revolution__text-style3{
+            letter-spacing: 4px;
+            font-size: 105px;
+        }
+        & .green-revolution__text-style4{
+            font-size: 110px;
+            letter-spacing: 2px;
+        }
     }
+    
     & .green-revolution__small-text{
         font-family: $font-roboto;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
         line-height: 13px;
+        padding-top: 5px;
+        letter-spacing: 0;
     }
 
     & .green-revolution__images-part {
@@ -25,6 +41,7 @@
         width: 550px;
         height: 645px;
         margin-bottom: 81px;
+        margin-top: 5px;
         & .green-revolution__image_tracery{
             position: absolute;
             width: 558px;
